@@ -67,10 +67,9 @@ public class MainActivity extends AppCompatActivity {
                 radioButton = findViewById(id);
 
                 Toast.makeText(getApplicationContext(),"Tên: "+name.getText()+'\n'
-                        +"Ngày sinh: "+dob.getText()+','+'\n'
-                        +"Giới tính: "+radioButton.getText()+','+'\n'
-                        +"Sở thích: "+ str+","
-                        +fvr.getText(), Toast.LENGTH_SHORT).show();
+                        +"Ngày sinh: "+dob.getText()+'\n'
+                        +"Giới tính: "+radioButton.getText()+'\n'
+                        +"Sở thích: "+ str+"", Toast.LENGTH_SHORT).show();
             }
         });
     }
