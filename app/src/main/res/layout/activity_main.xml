@@ -11,7 +11,7 @@
         android:text="Tên của bạn:"/>
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/yourname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
@@ -25,7 +25,7 @@
         android:text="Ngày sinh"/>
 
     <EditText
-        android:id="@+id/dob"
+        android:id="@+id/yourdob"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
@@ -38,6 +38,7 @@
         android:text="Giới tính"/>
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -63,35 +64,35 @@
         android:text="Sở thích của bạn:"/>
 
     <CheckBox
-        android:id="@+id/movie"
+        android:id="@+id/watchmovie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
         android:textSize="18dp"
         android:text="Xem phim"/>
     <CheckBox
-        android:id="@+id/music"
+        android:id="@+id/listenmusic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
         android:textSize="18dp"
         android:text="Nghe nhạc"/>
     <CheckBox
-        android:id="@+id/coffee"
+        android:id="@+id/gocafe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
         android:textSize="18dp"
         android:text="Đi cafe với bạn bè"/>
     <CheckBox
-        android:id="@+id/alone"
+        android:id="@+id/athome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
         android:textSize="18dp"
         android:text="Ở nhà một mình"/>
     <CheckBox
-        android:id="@+id/cook"
+        android:id="@+id/inkitchen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
@@ -105,14 +106,14 @@
         android:text="Sở thích khác:"/>
 
     <EditText
-        android:id="@+id/stk"
+        android:id="@+id/yourfvr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
         android:hint="Nhập sở thích khác"/>
 
     <Button
-        android:id="@+id/confirm"
+        android:id="@+id/btnconfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
